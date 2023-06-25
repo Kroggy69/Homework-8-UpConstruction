@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-8-UpConstruction . CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9515c21077.js" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="main-hero">
+        <!-- ////// Navbar ////// -->
+        <header>
+            <nav>
+                <!-- //// company //// -->
+                <div class="company">
+                    <a href="#">UpConstruction<span>.</span></a>
+                </div>
+
+                <!-- //// Nav Menu //// -->
+                <div class="nav-menu">
+                    <ul>
+                        <li class="nav-item">
+                            <a class="nav-link active bot-line-relative" href="#">Home
+                                <div class="bot-line-hover"></div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bot-line-relative" href="#">Dropdown &nbsp;<i
+                                    class="fa-solid fa-chevron-down"></i>
+                                <div class="bot-line-hover"></div>
+                            </a>
+
+                            <!-- //// DropDown //// -->
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Dropdown 1</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="dropdown-link" href="#">Child Dropdown <i
+                                                class="fa-solid fa-caret-right"></i></a>
+
+                                        <!-- ///// DropDown Child //// -->
+                                        <div class="dropdown-child">
+                                            <ul>
+                                                <li class="dropdown-item line-hidden">
+                                                    <a class="dropdown-link" href="#">Dropdown 1</a>
+                                                </li>
+                                                <li class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Dropdown 2</a>
+                                                </li>
+                                                <li class="dropdown-item line-hidden">
+                                                    <a class="dropdown-link" href="#">Dropdown 3</a>
+                                                </li>
+                                                <li class="dropdown-item line-hidden">
+                                                    <a class="dropdown-link" href="#">Dropdown 4</a>
+                                                </li>
+                                                <li class="dropdown-item line-hidden">
+                                                    <a class="dropdown-link" href="#">Dropdown 5</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-item line-hidden">
+                                        <a class="dropdown-link" href="#">Dropdown 2</a>
+                                    </li>
+                                    <li class="dropdown-item line-hidden">
+                                        <a class="dropdown-link" href="#">Dropdown 3</a>
+                                    </li>
+                                    <li class="dropdown-item line-hidden">
+                                        <a class="dropdown-link" href="#">Dropdown 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bot-line-relative" href="#">About
+                                <div class="bot-line-hover"></div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bot-line-relative" href="#">Services
+                                <div class="bot-line-hover"></div>
+                            </a>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bot-line-relative" href="#">Projects
+                                <div class="bot-line-hover"></div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bot-line-relative" href="#">Blog
+                                <div class="bot-line-hover"></div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact
+                                <div class="bot-line-hover"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <!-- ///// Hero Banner ///// -->
+        <div class="hero-txt">
+            <div class="hero-container">
+                <div class="animate__animated animate__fadeInDown">
+                    <div class="hero-content">
+                        <h1>Welcome to UpConstruction</h1>
+                    </div>
+                    <div class="hero-content">
+                        <div class="hero-line">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="animate__animated animate__fadeInUp">
+                    <div class="hero-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="hero-content">
+                        <a href="#">
+                            <div class="get-start">
+                                <p>Get Started</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper-bg">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-relative">
+                        <img src="Image/hero-carousel-1.jpg" alt="">
+                        <div class="overlay-bg"></div>
+                    </div>
+                    <div class="swiper-slide swiper-relative">
+                        <img src="Image/hero-carousel-2.jpg" alt="">
+                        <div class="overlay-bg"></div>
+
+                    </div>
+                    <div class="swiper-slide swiper-relative">
+                        <img src="Image/hero-carousel-3.jpg" alt="">
+                        <div class="overlay-bg"></div>
+                    </div>
+                    <div class="swiper-slide swiper-relative">
+                        <img src="Image/hero-carousel-4.jpg" alt="">
+                        <div class="overlay-bg"></div>
+                    </div>
+                    <div class="swiper-slide swiper-relative">
+                        <img src="Image/hero-carousel-5.jpg" alt="">
+                        <div class="overlay-bg"></div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <div class="expand"></div>
+                </div>
+                <div class="swiper-button-prev">
+
+                    <div class="expand"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /////// Constructions /////// -->
+    <section>
+        <div class="container">
+            <div class="title" data-aos="fade-up" data-aos-duration="600">
+                <h2>Constructions</h2>
+                <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis
+                    dolorem dolore earum</p>
+            </div>
+            <div class="feature">
+                <div class="col-6" data-aos="fade-up" data-aos-duration="400">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="Image/constructions-1.jpg" alt="">
+                        </div>
+                        <div class="card-txt">
+                            <div class="txt">
+                                <h4>Eligendi omnis sunt veritatis.</h4>
+                                <p>Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat
+                                    deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo
+                                    magnam.
+                                    Dolor eos et.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6" data-aos="fade-up" data-aos-duration="600">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="Image/constructions-2.jpg" alt="">
+                        </div>
+                        <div class="card-txt">
+                            <div class="txt">
+                                <h4>Possimus ut sed velit assumenda</h4>
+                                <p>Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est
+                                    laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at
+                                    quas aut hic. Eum dignissimos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6" data-aos="fade-up" data-aos-duration="840">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="Image/constructions-3.jpg" alt="">
+                        </div>
+                        <div class="card-txt">
+                            <div class="txt">
+                                <h4>Error beatae dolor inventore aut</h4>
+                                <p>Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam
+                                    quae
+                                    quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut
+                                    sunt
+                                    temporibus nulla culpa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6" data-aos="fade-up" data-aos-duration="900">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="Image/constructions-4.jpg" alt="">
+                        </div>
+                        <div class="card-txt">
+                            <div class="txt">
+                                <h4>Expedita voluptas ut ut nesciunt</h4>
+                                <p>Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos
+                                    doloremque
+                                    architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut
+                                    aliquid
+                                    ea dolores libero nobis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /////// Footer /////// -->
+    <section>
+        <div class="footer-bg"></div>
+        <div class="footer-img"></div>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-social">
+                        <h4>UpConstruction</h4>
+                        <br>
+                        <p>
+                            A108 Adam Street
+                            <br>
+                            NY 535022, USA
+                            <br>
+                            <br>
+                            <strong>Phone</strong>: +1 5589 55488 55
+                            <br>
+                            <strong>Email</strong>: info@example.com
+                        </p>
+                        <div class="social-link">
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-links">
+                            <h4>Useful links</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Service</a>
+                                </li>
+                                <li>
+                                    <a href="#">Term of Service</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Web Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">Web Development</a>
+                                </li>
+                                <li>
+                                    <a href="#">Product Management</a>
+                                </li>
+                                <li>
+                                    <a href="#">Marketing</a>
+                                </li>
+                                <li>
+                                    <a href="#">Graphic Design</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-links">
+                            <h4>Hic solutasetp</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Molestiae accusamus iure</a>
+                                </li>
+                                <li>
+                                    <a href="#">Excepturi dignissimos</a>
+                                </li>
+                                <li>
+                                    <a href="#">Suscipit distinctio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dilecta</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sit quas consectetur</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-links">
+                            <h4>Nobis illum</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">Ipsam</a>
+                                </li>
+                                <li>
+                                    <a href="#">Laudantium dolorum</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dinera</a>
+                                </li>
+                                <li>
+                                    <a href="#">Trodelas</a>
+                                </li>
+                                <li>
+                                    <a href="#">Flexo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© Copyright <strong>UpConstruction</strong>. All Rights Reserved
+                        <br>
+                        Designed by
+                        <span>
+                            <a href="#">BootstrapMade</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <a class="button" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+
+<!-- //// AOS //// -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        centeredSlides: true,
+        slidesPerView: 1,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+</html>
